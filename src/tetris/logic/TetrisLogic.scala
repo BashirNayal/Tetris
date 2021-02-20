@@ -1,6 +1,5 @@
 package tetris.logic
 import java.io.PrintWriter
-import ddf.minim.{Minim , AudioPlayer , AudioSample}
 import scala.io.{BufferedSource, Source}
 import engine.random.{RandomGenerator, ScalaRandomGen}
 import tetris.game.TetrisGame

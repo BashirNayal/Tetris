@@ -3,7 +3,6 @@
 
 package engine
 
-import ddf.minim.Minim
 import engine.graphics.Color.Black
 import engine.graphics.{Color, Point, Rectangle, Triangle}
 import processing.core.{PApplet, PConstants}
