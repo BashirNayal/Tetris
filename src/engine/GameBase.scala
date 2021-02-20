@@ -43,7 +43,6 @@ class GameBase   extends PApplet {
     text(string, pos.x, pos.y)
   }
 
-  /** Quick hack for legibility on different backgrounds */
   def drawTextShadow(string: String, pos: Point, color: Color = Black, thickness: Float = 1): Unit = {
     pushStyle()
     setFillColor(color)

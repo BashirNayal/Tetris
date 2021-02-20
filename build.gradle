@@ -21,10 +21,6 @@ ext {
 
 
 repositories {
-    flatDir {
-        dirs 'lib'
-    }
-
     mavenCentral()
 }
 
