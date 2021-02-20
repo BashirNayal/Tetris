@@ -1,0 +1,40 @@
+import org.codehaus.groovy.runtime.GStringImpl
+
+plugins {
+    id 'scala'
+    id 'idea'
+    id 'application'
+}
+
+
+application {
+    mainClassName = 'tetris.game.TetrisGame'
+}
+
+
+
+
+ext {
+    scalaMajorVersion = '2.13'
+    scalaVersion = "${scalaMajorVersion}.3" as GStringImpl
+}
+
+
+repositories {
+    flatDir {
+        dirs 'lib'
+    }
+
+    mavenCentral()
+}
+
+sourceSets.main.scala.srcDirs = ['src']
+
+dependencies {
+    implementation "org.scala-lang:scala-library:${scalaVersion}"
+    implementation group: 'org.processing', name: 'core', version: '3.3.6'
+}
+
+
+
+
