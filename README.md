@@ -13,3 +13,7 @@ move left|A|left arrow
 move right|D|right arrow
 hold|N|J
 hard drop|Space|Enter
+
+![start screen](/screenshots/startScreen.png)
+![1 player](/screenshots/1player.png)
+![2 players](/screenshots/2players.png)
